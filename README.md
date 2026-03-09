@@ -3,7 +3,10 @@
 ### How to setup
 * Create .env in project root folder
 * Get openweather API key from https://home.openweathermap.org/
-* Paste API key to EXPO_PUBLIC_WEATHER_API_KEY variable (Not safe for production)
+* Paste API key to env:
+ ```
+ EXPO_PUBLIC_WEATHER_API_KEY=
+ ```
 * Create project to firebase
   * Add web app to the project
   * Copy the following firebase config fields to .env:
